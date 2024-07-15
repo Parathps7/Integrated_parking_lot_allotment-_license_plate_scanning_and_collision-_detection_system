@@ -1,0 +1,7 @@
+[
+  {
+    "lot_id": 2,
+    "car_count": 3,
+    "free_space": 4
+  }
+]

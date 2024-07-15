@@ -1,0 +1,29 @@
+/* Basic styles for parking lot slots */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parking-lot {
+    display: grid;
+    grid-template-columns: repeat(5, 80px); /* Adjust as per your parking lot size */
+    gap: 10px;
+}
+
+.slot {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+}
+
+.slot.occupied {
+    background-color: red;
+    color: white;
+}
